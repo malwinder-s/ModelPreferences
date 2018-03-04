@@ -1,6 +1,6 @@
-Android library for saving or reading any model object in Preferences
+**Android library for saving or reading any model object in Preferences**
 
-How to use?
+**How to use?**
 
 This library defines two methods:
 
@@ -10,7 +10,7 @@ This library defines two methods:
 
 `object`: Object of your model class
 
-AND
+and
 
 `YourObject getObject(key, Class)`
 
