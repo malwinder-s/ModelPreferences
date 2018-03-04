@@ -22,31 +22,30 @@ and
 
 Suppose you created model class:
 
-       `class Apple {
+       class Apple {
            int weight;
-           float price;`
+           float price;
  
- public void setWeight(int weight) {
- this.weight = weight;
- }
+           public void setWeight(int weight) {
+              this.weight = weight;
+           }
  
- public void setPrice(float price) {
- this.price = price;
- }
-}`
+           public void setPrice(float price) {
+              this.price = price;
+           }
+        }
 
 Now, to save above object using this library into the SharedPreferences:
 
-`Water water = new Water(context);
+        Water water = new Water(context);
 
-//Save
+        //Save
 
-water.putObject("KEY_APPLE_SMALL", new Apple(200,34));
+        water.putObject("KEY_APPLE_SMALL", new Apple(200,34));
 
-//Retreive
+        //Retreive
 
-Apple apple = water.getObject("KEY_APPLE_SMALL", Apple.class);`
-
+        Apple apple = water.getObject("KEY_APPLE_SMALL", Apple.class);
 
 Thank you.
 My LinkedIn profile: https://www.linkedin.com/in/malwinder/
