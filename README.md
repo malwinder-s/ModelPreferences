@@ -4,23 +4,25 @@ How to use?
 
 This library defines two methods:
 
-putObject(key, object)
+`putObject(key, object)`
 
-key: Key of Shared Preference
+`key`: Key of Shared Preference
 
-object: Object of your model class
+`object`: Object of your model class
 
 AND
 
-YourObject getObject(key, Class)
+`YourObject getObject(key, Class)`
 
-YourObject: Returned by this method
-key: Key which was used
-Class: Class of this object. Example: In above case: Apple.class
+`YourObject`: Returned by this method
+
+`key`: Key which was used
+
+`Class`: Class of this object. Example: In above case: `Apple.class`
 
 Suppose you created model class:
 
-class Apple {
+`class Apple {
  int weight;
  float price;
  
@@ -31,11 +33,11 @@ class Apple {
  public void setPrice(float price) {
  this.price = price;
  }
-}
+}`
 
 Now, to save above object using this library into the SharedPreferences:
 
-Water water = new Water(context);
+`Water water = new Water(context);
 
 //Save
 
@@ -43,7 +45,7 @@ water.putObject("KEY_APPLE_SMALL", new Apple(200,34));
 
 //Retreive
 
-Apple apple = water.getObject("KEY_APPLE_SMALL", Apple.class);
+Apple apple = water.getObject("KEY_APPLE_SMALL", Apple.class);`
 
 
 Thank you.
