@@ -22,9 +22,9 @@ and
 
 Suppose you created model class:
 
-`class Apple {
- int weight;
- float price;
+       `class Apple {
+           int weight;
+           float price;`
  
  public void setWeight(int weight) {
  this.weight = weight;
