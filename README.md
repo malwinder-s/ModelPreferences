@@ -36,9 +36,12 @@ class Apple {
 Now, to save above object using this library into the SharedPreferences:
 
 Water water = new Water(context);
+
 //Save
+
 water.putObject("KEY_APPLE_SMALL", new Apple(200,34));
 //Retreive
+
 Apple apple = water.getObject("KEY_APPLE_SMALL", Apple.class);
 
 
