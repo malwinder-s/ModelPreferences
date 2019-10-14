@@ -48,4 +48,4 @@ Now, to save above object using this library into the SharedPreferences:
         Apple apple = water.getObject("KEY_APPLE_SMALL", Apple.class);
 
 Thank you.
-My LinkedIn profile: https://www.linkedin.com/in/malwinder/
+My blog on Android application development: https://medium.com/@dev.malwinder
